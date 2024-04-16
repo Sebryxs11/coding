@@ -1,6 +1,6 @@
-struct dsu {
+struct DSU {
     vector <int> dsu_father,dsu_size;
-    dsu(int max_dsu_size) {
+    DSU(int max_dsu_size) {
         dsu_father = vector <int> (max_dsu_size+1,0);
         dsu_size = vector <int> (max_dsu_size+1,0);
     }
